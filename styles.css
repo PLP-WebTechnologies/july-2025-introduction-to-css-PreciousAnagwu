@@ -1,0 +1,60 @@
+/* My body CSS */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+}
+
+/* My selectors (h3,h4 and p) */
+h3 {
+    color: navy;
+    font-size: 2.5em;
+    text-align: center;
+}
+h4 {
+    color: lightblue;
+    font-size: 2.5em;
+    text-align: center;
+}
+p {
+    color: #0e0000;
+    line-height: 1.5;
+    
+}
+
+/* Typography */
+h3, h4 {
+    font-family: 'Segoe UI', Verdana, sans-serif
+}
+
+p{
+    font-family: italic
+}
+
+/* My header CSS */
+header{
+    background-color: rgb(114, 114, 209);
+    padding: 25px;
+}
+
+/* My Class Selector */
+.Precious{
+    background-color: rgb(114, 114, 209);
+    border: 2px solid #050a50; /* outline */
+    padding: 20px; /* space inside the box */
+    margin: 20px auto; /* space outside the box */
+    width: 300px;
+    text-align: center;
+}
+
+/* My ID Selector */
+#Anagwu{
+    background-color:rgb(114, 114, 209);
+    border: 3px solid #050a50; /* outline */
+    padding: 15px; /* space inside the box */
+    margin: 20px auto; /* space outside the box */
+    width: 300px;
+    text-align: center;
+}
+
